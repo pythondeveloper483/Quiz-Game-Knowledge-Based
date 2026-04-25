@@ -1,0 +1,55 @@
+# Quiz Game with Leaderboard - Analysis
+
+This project is a simple **Python-based quiz game** with a built-in **leaderboard system**.  
+It demonstrates key programming concepts such as input/output, conditionals, loops, file handling, and time management.
+
+---
+
+## 🔑 Features
+1. **Randomized Questions**
+   - The `random.shuffle()` function ensures that the order of questions changes each run.
+
+2. **Timed Responses**
+   - Players have **10 seconds** to answer each question.
+   - If they exceed the time limit, no points are awarded.
+
+3. **Multiple-Choice Format**
+   - Each question has four options (A/B/C/D).
+   - Input validation converts answers to uppercase for consistency.
+
+4. **Scoring System**
+   - Correct answers increase the score.
+   - Wrong answers display the correct option.
+
+5. **Leaderboard**
+   - Scores are saved in a text file (`leaderboard.txt`).
+   - The leaderboard shows the **Top 5 scores**, sorted in descending order.
+
+---
+
+## 📂 Files Used
+- **main script**: Contains the quiz logic.
+- **leaderboard.txt**: Stores player names and scores.
+
+
+---
+
+## 🎯 Learning Outcomes
+By studying and running this project, you will practice:
+- Python basics (loops, conditionals, functions).
+- File handling (`open`, `read`, `write`).
+- Time management (`time` module).
+- Randomization (`random.shuffle`).
+- Sorting and ranking data.
+
+---
+
+## 📌 Usage
+1. Run the script in a Python environment.
+2. Enter your name when prompted.
+3. Answer each question within 10 seconds.
+4. View your score and check the leaderboard.
+
+---
+
+This project is a **great mini-capstone** for beginners in Python, and it can evolve into a full-fledged quiz platform with additional features.
